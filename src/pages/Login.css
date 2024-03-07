@@ -1,0 +1,56 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url("https://img.freepik.com/free-photo/green-desk-with-stationery-top-view-copypace_144627-24867.jpg?w=360&t=st=1709541952~exp=1709542552~hmac=9657bd0f72165581ddc18edde17a3a98be42362138b1fa899da41168ec087fc2");
+    background-size: cover;
+    padding: 10px;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm >label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.forgotPassword{
+    padding-left: 5px;
+    margin-top: 10px;
+    color: rgb(46, 45, 43);
+    font-size: 18px;
+}
+.forgotPassword Span{
+    color: rgb(219, 121, 219);
+    cursor: pointer;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

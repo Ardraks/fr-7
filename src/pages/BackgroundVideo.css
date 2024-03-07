@@ -1,0 +1,32 @@
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays behind other content */
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .background-video {
+      width: 100%;
+      height: calc(100vh + 100px); /* Adjust the value as needed */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .background-video {
+      width: calc(100vw + 100px); /* Adjust the value as needed */
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  /* Optional: Add additional styles if needed */
+  

@@ -1,0 +1,44 @@
+.header{
+    margin-top: 
+    0px;
+    
+
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Lora",serif;
+    color: #444;
+
+}
+.headerTitlesSm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+
+}
+
+.headerTitlesLg{
+    position: absolute;
+    top: 20%;
+    font-size: 40px;
+
+}
+.headerImg{
+    width: 100%;
+    height: 1000px;
+ 
+    object-fit: cover;
+
+}
+.blogButton{
+    position: absolute;
+   top: 40%;
+    cursor: pointer;
+    /* background-color: rgb(154, 154, 154); */
+    border: none;
+    color: rgb(36, 54, 73);
+    border-radius: 10px;
+    padding: 10px;  
+}
